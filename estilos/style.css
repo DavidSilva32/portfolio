@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/* Mobile First */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background: black url('../imagens/pexels-pixabay-356147.jpg') no-repeat right center;
+    background-size: cover;
+    color: white;
+}
+
+#burguer {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+menu {
+    display: none;
+}
+
+menu ul {
+    list-style-type: none;
+}
+
+menu a {
+    display: block;
+    background-color: greenyellow;
+    text-decoration: none;
+    text-align: center;
+
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 1.2em;
+}
+
+menu a:hover {
+    background-color: black;
+    color: greenyellow;
+}
+
+main strong {
+    color: greenyellow;
+}
