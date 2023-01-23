@@ -42,6 +42,7 @@ menu ul {
 menu a {
     display: block;
     background-color: greenyellow;
+    color: black;
     text-decoration: none;
     text-align: center;
 
