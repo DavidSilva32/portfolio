@@ -17,13 +17,10 @@
         display: block;
     }
 
-    menu ul {
-        /* text-align: right; */
-    }
-
     menu li {
         display: inline-block;
     }
+
     menu a {
         background-color: transparent;
         color: greenyellow;
