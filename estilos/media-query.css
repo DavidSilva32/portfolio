@@ -32,11 +32,45 @@
         box-shadow: 0px 0px 5px white;
     }
 
+    main {
+        height: 60vh;
+    }
+
     main > h1 {
         cursor: pointer;
+        font-size: 3.5em;
+    }
+
+    main p {
+        font-size: 1.5em;
     }
 
     div.campo form input:last-child {
         cursor: pointer;
+        padding: 10px 4vw;
+    }
+
+    .about-me {
+        padding-right: 8vw;
+        padding-left: 8vw;
+    }
+
+    .about-me div#main-about img {
+        float: left;
+        width: 40%;
+        height: auto;
+    }
+    
+    .about-me div#text-about {
+       float: right;
+        width: 50%;
+    }
+
+    .about-me div#text-about h2, h3 {
+        text-align: left;
+    }
+
+    .about-me div#text-about p {
+        width: 100%;
     }
 }

@@ -60,45 +60,44 @@ menu a:hover {
 }
 
 main {
-    position: absolute;
-    left: 8%;
-    top: 50%;
+    margin-top: 25vh;
+    margin-left: 5vw;
     width: 50vw;
     transition-timing-function: ease;
 }
 
 main h1 {
-    font-size: 7vw;
+    font-size: 1.3em;
 }
 
-main strong {
+strong {
     color: greenyellow;
 }
 
 main p {
-    font-size: 2.6vw;
+    font-size: 1.1em;
 }
 
 main form {
-    padding-top: 10vh;
-    width: 40vw;
+    padding-top: 5vh;
+    margin-bottom: 5vh;
+    width: 50vw;
     max-width: 100%;
     position: relative;
 }
 
 div.campo form input:first-child {
-    width: 100%;
+    width: 50vw;
     padding: 14px 2vw;
     border-radius: 30px;
-    outline: none;
+    border: 2px solid greenyellow;
 }
 
 div.campo form input:last-child {
     position: absolute;
-    outline: none;
-    padding: 10px 4vw;
+    padding: 10px 1vw;
     border-radius: 30px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.212);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.212);
     background-color: rgb(172, 255, 48);
     border: none;
     right: 6px;
@@ -107,9 +106,52 @@ div.campo form input:last-child {
 
 .about-me {
     background-color: #191919;
-    width: 100vw;
+    height: 100vh;
+    padding: 10vh 0px;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
-.about-me > div#main-about > img {
+.about-me div#main-about img {
+    width: 200px;
+    margin: auto;
+    height: auto;
 
+}
+
+.about-me div#text-about h2, h3 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 2vh;
+}
+
+.about-me div#text-about h2 {
+    font-size: 2.5em;
+}
+
+.about-me div#text-about p {
+    color: rgb(166, 255, 33);
+    line-height: 28px;
+    font-size: 1.1em;
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5vh;
+}
+
+.button {
+    background-color: greenyellow;
+    color: black;
+    padding: 13px 20px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid greenyellow;
 }
