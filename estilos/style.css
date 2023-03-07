@@ -142,12 +142,17 @@ div.campo form input:last-child {
 .button {
     background-color: greenyellow;
     color: black;
+    font-weight: bold;
     padding: 13px 20px;
     text-decoration: none;
     border: 2px solid transparent;
-    font-weight: bold;
     border-radius: 30px;
     transition: .4s;
+
+    display: block;
+    width: 40%;
+    text-align: center;
+    margin: auto;
 }
 
 .button:hover {
