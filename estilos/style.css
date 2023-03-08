@@ -27,19 +27,28 @@ body {
 
 #burguer {
     display: block;
-    background-color: rgba(255, 255, 255, 0.055);
+    background-color: rgba(255, 251, 251, 0.055);
     text-align: center;
     padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 50px;
+    border-radius: 50%;
     font-size: 2em;
     cursor: pointer;
 }
 
 #burguer:hover {
-    background-color: white;
+    background-color: aquamarine;
     color: black;
+    transition: .4s;
 }
 
 menu {
+    display: none;
+}
+
+menu h2 {
     display: none;
 }
 
@@ -47,21 +56,29 @@ menu ul {
     list-style-type: none;
 }
 
+menu li {
+    background-color: rgba(255, 255, 255, 0.055);
+    width: 250px;
+    padding-left: 20px;
+}
+
 menu a {
     display: block;
-    background-color: greenyellow;
+    background-color: aquamarine;
     color: black;
     text-decoration: none;
     text-align: center;
 
+    width: 200px;
     padding: 10px;
     border: 2px solid black;
     font-size: 1.2em;
 }
 
 menu a:hover {
-    background-color: black;
+    background-color: transparent;
     color: greenyellow;
+    border-radius: 20px;
 }
 
 main {
@@ -103,7 +120,7 @@ div.campo form input:last-child {
     padding: 10px 1vw;
     border-radius: 30px;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.212);
-    background-color: rgb(172, 255, 48);
+    background-color: rgb(117, 190, 8);
     border: none;
     right: 6px;
     bottom: 6px;
@@ -114,7 +131,7 @@ div.campo form input:last-child {
 .about-me {
     background-color: var(--background-about-me);
     padding: 5vh 5vw;
-    height: 100vh;
+    width: 100%;
     
     transition: width .3s, height .3s;
     transition-timing-function: ease;
@@ -163,7 +180,7 @@ div.campo form input:last-child {
     margin: auto;
 }
 
-.button:hover {
+.about-me a#button-about:hover {
     background-color: transparent;
     color: white;
     border: 2px solid greenyellow;
@@ -178,4 +195,35 @@ div.campo form input:last-child {
 
 .container-services h2 {
     text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: var(--background-about-me);
+    width: 280px;
+    margin: 15px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.card i {
+    color: aquamarine;
+    font-size: 50px;
+    margin: 25px 0px;
+
+    font-variation-settings: 'FILL' 1;
+}
+
+.card h3 {
+    text-align: center;
+    font-size: 1.5em;
 }

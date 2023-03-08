@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 768px) {
     header {
-        padding: 20px;
+        padding: 10px;
     }
 
     #burguer {
@@ -10,25 +10,42 @@
     }
 
     menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px;
+        padding-left: 4%;
+        padding-right: 8%;
+    }
+
+    menu h2 {
         display: block;
+        font-size: 2em;
+        letter-spacing: 2px;
+    }
+
+    menu ul {
+        width: 100%;
     }
 
     menu li {
         display: inline-block;
-        padding: 2.5vw;
+        background-color: rgba(0, 0, 0, 0);
+        width: 150px;
+        padding: 10px 25px;
     }
 
     menu a {
         background-color: transparent;
         font-weight: bold;
-        color: greenyellow;
-        border: 2px solid greenyellow;
-        border-radius: 8px;
+        color: white;
+        border: none;
+        font-size: 1em;
     }
 
     menu a:hover {
-        color: white;
-        border: 2px solid white;
+        color: greenyellow;
+        width: 140px;
         box-shadow: 0px 0px 5px white;
     }
 
@@ -57,15 +74,20 @@
         padding-left: 8vw;
     }
 
+    .about-me div#main-about {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
     .about-me div#main-about img {
-        float: left;
+       
         width: 40%;
         margin: 0px;
         height: auto;
     }
     
-    .about-me div#text-about {
-       float: right;
+    .about-me div#text-about { 
         width: 50%;
     }
 
@@ -84,19 +106,13 @@
 
     /* Section Services */
 
-    .box {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 60vh;
-        flex-wrap: wrap;
+    .container-services h2 {
+        font-size: 4em;
+        margin: 5vh 0px;
     }
 
     .card {
-        background-color: var(--background-about-me);
         height: 365px;
         width: 330px;
-        border-radius: 20px;
-        margin: 15px;
     }
 }
