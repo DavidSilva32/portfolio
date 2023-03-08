@@ -208,7 +208,7 @@ div.campo form input:last-child {
 .card {
     background-color: var(--background-about-me);
     width: 280px;
-    height: 78vh;
+    height: 85vh;
     padding: 20px;
     margin: 15px;
     border-radius: 20px;
