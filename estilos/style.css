@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+:root {
+    --background-about-me: #191919;
+    --background-services: #101010;
+}
+
 /* Mobile First */
 
 * {
@@ -104,18 +109,23 @@ div.campo form input:last-child {
     bottom: 6px;
 }
 
+/* Section About Me */
+
 .about-me {
-    background-color: #191919;
+    background-color: var(--background-about-me);
+    padding: 5vh 5vw;
     height: 100vh;
-    padding: 10vh 0px;
+    
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
 
 .about-me div#main-about img {
-    width: 200px;
-    margin: auto;
+    width: 50vw;
+    padding-top: 5vh;
+    margin-left: 20vw;
     height: auto;
+    
 
 }
 
@@ -134,12 +144,10 @@ div.campo form input:last-child {
     line-height: 28px;
     font-size: 1.1em;
     text-align: justify;
-    width: 90%;
-    margin: auto;
     margin-bottom: 5vh;
 }
 
-.button {
+.about-me a#button-about {
     background-color: greenyellow;
     color: black;
     font-weight: bold;
@@ -159,4 +167,15 @@ div.campo form input:last-child {
     background-color: transparent;
     color: white;
     border: 2px solid greenyellow;
+}
+
+/* Section Services */
+
+.container-services {
+    background-color: var(--background-services);
+    padding: 5vh 5vw;
+}
+
+.container-services h2 {
+    text-align: center;
 }
