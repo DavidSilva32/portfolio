@@ -10,7 +10,7 @@ function clickMenu() {
     if (itens.style.display == 'flex') {
         burguer.style.width = "50px"
         burguer.style.borderRadius = "50%"
-        burguer.style.backgroundColor = 'rgba(255, 251, 251, 0.055)'
+        burguer.style.backgroundColor = 'var(--menu)'
         burguer.style.color = 'white'
         itens.style.display = 'none'
     } else {

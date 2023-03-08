@@ -3,6 +3,7 @@
 :root {
     --background-about-me: #191919;
     --background-services: #101010;
+    --menu: rgba(255, 251, 251, 0.144);
     --text: rgba(191, 255, 95, 0.856);
 }
 
@@ -33,7 +34,7 @@ p {
 
 #burguer {
     display: block;
-    background-color: rgba(255, 251, 251, 0.144);
+    background-color: var(--menu);
     text-align: center;
     padding: 10px;
     margin-top: 10px;
