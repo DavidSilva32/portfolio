@@ -3,6 +3,7 @@
 :root {
     --background-about-me: #191919;
     --background-services: #101010;
+    --text: rgba(191, 255, 95, 0.856);
 }
 
 /* Mobile First */
@@ -90,7 +91,8 @@ main {
 }
 
 main h1 {
-    font-size: 1.3em;
+    font-size: 1.5em;
+    margin: 5px 0px;
 }
 
 strong {
@@ -98,7 +100,7 @@ strong {
 }
 
 main p {
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 main form {
@@ -127,7 +129,7 @@ div.campo form input:last-child {
     bottom: 6px;
 }
 
-/* Section About Me */
+/* SECTION ABOUT ME */
 
 .about-me {
     background-color: var(--background-about-me);
@@ -158,7 +160,7 @@ div.campo form input:last-child {
 }
 
 .about-me div#text-about p {
-    color: rgb(166, 255, 33);
+    color: var(--text);
     line-height: 28px;
     font-size: 1.1em;
     text-align: justify;
@@ -173,7 +175,7 @@ div.campo form input:last-child {
     text-decoration: none;
     border: 2px solid transparent;
     border-radius: 30px;
-    transition: .4s;
+    box-shadow: 0px 0px 15px white;
 
     display: block;
     width: 40%;
@@ -181,13 +183,7 @@ div.campo form input:last-child {
     margin: auto;
 }
 
-.about-me a#button-about:hover {
-    background-color: transparent;
-    color: white;
-    border: 2px solid greenyellow;
-}
-
-/* Section Services */
+/* SECTION SERVICES */
 
 .container-services {
     background-color: var(--background-services);
@@ -209,6 +205,7 @@ div.campo form input:last-child {
 .card {
     background-color: var(--background-about-me);
     width: 280px;
+    padding: 20px;
     margin: 15px;
     border-radius: 20px;
     text-align: center;
@@ -217,7 +214,7 @@ div.campo form input:last-child {
 }
 
 .card i {
-    color: aquamarine;
+    color: greenyellow;
     font-size: 50px;
     margin: 25px 0px;
 
@@ -230,5 +227,13 @@ div.campo form input:last-child {
 }
 
 .card p {
-    
+    color: var(--text);
+    font-size: 1.1em;
+    line-height: 1.5em;
+    margin-bottom: 4vh;
+    text-align: justify;
+}
+
+.button-card {
+
 }
