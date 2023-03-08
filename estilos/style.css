@@ -195,6 +195,7 @@ div.campo form input:last-child {
 }
 
 .container-services h2 {
+    font-size: 2.5em;
     text-align: center;
 }
 
@@ -208,7 +209,7 @@ div.campo form input:last-child {
 
 .card {
     background-color: var(--background-about-me);
-    width: 280px;
+    width: 90vw;
     height: 85vh;
     padding: 20px;
     margin: 15px;
