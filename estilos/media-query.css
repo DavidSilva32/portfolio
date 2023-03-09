@@ -118,6 +118,10 @@
 
     /* SECTION SERVICES */
 
+    .container-services {
+        height: 125vh;
+    }
+
     .container-services h2 {
         font-size: 4em;
         margin: 5vh 0px;
@@ -148,5 +152,12 @@
 
     .contact p {
         font-size: 1.5em;
+    }
+
+    /* SOCIAL NETWORKS */
+
+    footer h4 {
+        font-size: 2em;
+
     }
 }
