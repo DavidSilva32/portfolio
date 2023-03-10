@@ -1,6 +1,42 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) {
+    /* SECTION SERVICES */
+
+    .container-services {
+        background-color: var(--background-services);
+        padding: 5vh 0vw;
+    }
+
+    .box {
+        flex-direction: row;
+    }
+
+    .card {
+        width: 100vw;
+        padding: 0px;
+    }
+
+    .card h3 {
+
+    }
+
+    /* SECTION CONTACT */
+
+    .contact {
+        height: 50vh;
+    }
+
+    footer {
+        height: 70vh;
+    }
+
+    .end p {
+        top: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
     header {
         padding: 10px;
     }
@@ -100,6 +136,7 @@
 
     .about-me div#text-about p {
         width: 100%;
+        font-size: 1.2em;
     }
 
     .about-me a#button-about {
@@ -128,11 +165,13 @@
     }
 
     .card {
-        height: 75vh;
+        height: 80vh;
         width: 330px;
     }
 
     .card p {
+        font-size: 1.2em;
+        padding: 20px;
         margin-bottom: 6vh;
     }
 
