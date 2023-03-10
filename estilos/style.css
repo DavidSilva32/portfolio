@@ -236,6 +236,7 @@ div.campo form input:last-child {
 .card p {
     color: var(--text);
     margin-bottom: 5vh;
+    height: 200px;
 }
 
 .button {
