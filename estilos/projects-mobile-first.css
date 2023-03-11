@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+:root {
+    --background-about-me: #191919;
+    --background-services: #101010;
+    --menu: rgba(255, 251, 251, 0.144);
+    --text: rgba(191, 255, 95, 0.856);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background: black url('../imagens/background-2.jpg') no-repeat bottom center;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    height: 40vh;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 20px 5px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: var(--background-about-me);
+}
+
+.box {
+    padding: 10px 40px;
+}
+
+.card {
+    text-align: center;
+    padding-top: 20px;
+    background-color: var(--background-services);
+    height: 300px;
+}
+
+.card img {
+    width: 60%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px black;
+}
