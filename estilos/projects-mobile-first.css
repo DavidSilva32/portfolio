@@ -21,7 +21,14 @@ body {
     background: black url('../imagens/background-2.jpg') no-repeat bottom center;
     background-size: cover;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+p {
+    line-height: 1.5em;
+}
+
+/* HEADER AND MENU */
 
 header {
     display: flex;
@@ -43,11 +50,22 @@ nav a {
     text-decoration: none;
     font-size: 1.1em;
     font-weight: bold;
+    background-color: var(--background-services);
     color: white;
     padding: 5px;
-    border: 2px solid white;
+    border: 2px solid aquamarine;
     border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
 }
+
+.button {
+    background-color: greenyellow;
+    color: black;
+    border: 2px solid black;
+    padding: 5px 50px;
+}
+
+/* PROJECTS */
 
 main {
     display: flex;
@@ -58,19 +76,43 @@ main {
     background-color: var(--background-about-me);
 }
 
+main h2 {
+    margin: 10vh 0px;
+}
+
 .box {
-    padding: 10px 40px;
+    padding: 5vh 5vw;
 }
 
 .card {
     text-align: center;
-    padding-top: 20px;
-    background-color: var(--background-services);
     height: 300px;
+    margin-bottom: 15vh;
+}
+
+.card h3 {
+    font-size: 1.4em;
 }
 
 .card img {
+    margin: 5vh 0px;
     width: 60%;
+    height: auto;
     border-radius: 30px;
     box-shadow: 0px 0px 10px black;
 }
+
+.card p {
+  
+}
+
+/* FOOTER AND CONTACT */
+
+footer {
+    height: 40vh;
+    background-color: var(--background-services);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}    
