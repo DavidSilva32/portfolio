@@ -212,6 +212,7 @@ div.campo form input:last-child {
     background-color: var(--background-about-me);
     width: 90vw;
     height: 85vh;
+    min-height: 400px;
     padding: 20px;
     margin: 15px;
     border-radius: 20px;
@@ -235,7 +236,8 @@ div.campo form input:last-child {
 
 .card p {
     color: var(--text);
-    height: 200px;
+    height: 180px;
+    padding: 0px 20px;
 }
 
 .button {
@@ -255,6 +257,7 @@ div.campo form input:last-child {
 .contact {
     background-color: var(--background-about-me);
     height: 30vh;
+    min-height: 200px;
     padding: 0px 20px;
     display: flex;
     flex-direction: column;
@@ -267,9 +270,12 @@ div.campo form input:last-child {
     margin-bottom: 5vh;
 }
 
+/* FOOTER */
+
 footer {
     background-color: var(--background-services);
     height: 50vh;
+    min-height: 300px;
     padding: 0px 20px;
 
     display: flex;

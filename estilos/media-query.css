@@ -15,10 +15,15 @@
     .card {
         width: 100vw;
         padding: 0px;
+        min-height: 500px;
     }
 
     .card h3 {
+        height: 80px;
+    }
 
+    .card p {
+        height: 250px;
     }
 
     /* SECTION CONTACT */
