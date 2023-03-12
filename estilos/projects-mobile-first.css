@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+:root {
+    --background-about-me: #191919;
+    --background-services: #101010;
+    --menu: rgba(255, 251, 251, 0.144);
+    --text: rgba(191, 255, 95, 0.856);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background: black url('../imagens/background-2.jpg') no-repeat bottom center;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+/* HEADER AND MENU */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    height: 40vh;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+header h1 {
+    letter-spacing: 10px;
+}
+
+strong {
+    color: greenyellow;
+}
+
+nav li {
+    display: inline-block;
+    margin: 20px 5px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.1em;
+    background-color: var(--background-services);
+    font-weight: bold;
+    color: white;
+    padding: 5px 10px;
+    border: 2px solid aquamarine;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.button {
+    background-color: greenyellow;
+    color: black;
+    border: 2px solid black;
+    padding: 5px 50px;
+}
+
+/* PROJECTS */
+
+main {
+    background-color: var(--background-about-me);
+}
+
+main h2 {
+    text-align: center;
+    padding: 10vh 0px 5vh 0px;
+    font-size: 2.5em;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 5vh 5vw;
+}
+
+.card {
+    text-align: center;
+    min-height: 420px;
+    padding: 0px 10px;
+    margin-bottom: 15vh;
+    background-color: #212629;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.233);
+}
+
+.card h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.card img {
+    margin: 5vh 0px;
+    width: 70%;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.card p {
+    color: var(--text);
+    padding: 0px 10px;
+}
+
+/* FOOTER AND CONTACT */
+
+footer {
+    background-color: var(--background-services);
+    height: 50vh;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+
+footer h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+footer p {
+    margin: 5vh 0px;
+}
+
+.social a {
+    background-color: greenyellow;
+    color: black;
+    font-size: 1.5em;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 20px 10px 0px 10px;
+}
+
+.social a:hover {
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+.end {
+    color: greenyellow;
+    font-size: .9em;
+    position: relative;
+    top: 45px;
+}
