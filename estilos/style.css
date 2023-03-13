@@ -148,6 +148,7 @@ div.campo form input:last-child {
 }
 
 .about-me div#main-about img {
+    border-radius: 50%;
     width: 50vw;
     padding-top: 5vh;
     margin-left: 20vw;
